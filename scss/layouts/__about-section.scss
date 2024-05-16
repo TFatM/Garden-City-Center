@@ -1,0 +1,64 @@
+.about-section{
+  display: flex;
+  background-color: rgba(255, 244, 240, 1);
+  padding: 99px 45px 99px 45px;
+
+  &__container{
+    margin-left: 95px;
+  }
+
+  &__image{
+    width: 675px;
+    height: 664.67px;
+  }
+
+  &__header{
+    position: relative;
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 5px;
+    width: 470px;
+    height: 282px;
+    left: -0.04px;
+  }
+
+  &__description{
+    width: 517px;
+    height: 98px;
+    margin-top: 9px;
+    margin-bottom: 25px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.3px;
+  }
+
+  &__button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(225, 107, 169, 1);
+    cursor: pointer;
+    transition: background-color, border, color, 0.3s;
+
+    &:hover{
+      background-color: white;
+      border: 3px solid rgba(225, 107, 169, 1);
+      color: rgba(225, 107, 169, 1);
+    }
+  }
+
+  &__vector{
+    position: absolute;
+    top: 4590px;
+    left: 0;
+  }
+}

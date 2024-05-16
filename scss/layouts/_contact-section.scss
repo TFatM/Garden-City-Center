@@ -1,0 +1,47 @@
+.contact-section{
+
+  &__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__header{
+      width: 600px;
+      height: 71px;
+      margin-top: 90px;
+      margin-bottom: 22px;
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 70px;
+      letter-spacing: 5.12px;
+      text-align: center;
+      text-transform: uppercase;
+      flex-shrink: 1;
+  }
+
+  &__description{
+    margin-top: 0;
+    margin-bottom: 30px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 33px;
+      letter-spacing: 0.2px;
+  }
+
+  &__link{
+    margin-top: 0;
+    margin-bottom: 62px;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 2.4px;
+      color: black;
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+  }
+}

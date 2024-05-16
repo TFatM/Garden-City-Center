@@ -1,0 +1,25 @@
+.logo-string{
+overflow: hidden;
+background-color: rgba(123, 164, 219, 1);
+width: 100%;
+
+&__container{
+  height: 69px;
+  display: flex;
+}
+
+&__image{
+    animation: animate2 20s linear infinite;
+    will-change: transform;
+    white-space: nowrap;
+    position: relative;
+    width: auto;
+    height: 39px;
+    top: 14.77px;
+  }
+}
+
+@keyframes animate2{
+  0%{transform: translateX(0);}
+  100%{transform: translateX(-200%);}
+}

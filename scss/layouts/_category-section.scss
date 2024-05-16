@@ -1,0 +1,204 @@
+.category-section{
+  display: flex;
+  width: 1290px;
+  height: 2650px;
+  margin-left: -45px;
+
+  &__container{
+    position: absolute;
+  width: 1200px;
+  height: 2650px;
+  top: 1522px;
+  left: 120px;
+}
+
+  &__title{
+    position: relative;
+    margin: 0;
+    flex-shrink: 0;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 7.6px;
+    text-transform: uppercase;
+    width: 307px;
+    height: 85px;
+    top: 72px;
+    left: 40px;
+  }
+
+  &__fashion-style{
+    position: relative;
+    height: 668.5px;
+    width: 555px;
+    top: 45px;
+    left: 690px;
+
+    &__image{
+      position: relative;
+      width: 475px;
+      height: 523px;
+    }
+    &__description{
+      position: relative;
+      flex-shrink: 0;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 4.8px;
+      margin: 0;
+      height: 36px;
+      width: 345px;
+      top: 69px;
+      left: -60px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__food-drink{
+    position: relative;
+    width: 555px;
+    height: 621px;
+    top: -317px;
+    left: 45px;
+
+    &__image{
+      position: relative;
+      width: 475px;
+      height: 475px;
+    }
+
+    &__description{
+      position: relative;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 4.8px;
+      text-align: left;
+      text-transform: uppercase;
+      margin: 0;
+      width: 280px;
+      height: 36px;
+      top: 69px;
+      left: -60px;
+      flex-shrink: 0;
+    }
+  }
+
+  &__health-beauty{
+    position: relative;
+    width: 555px;
+    height: 621px;
+    top: -367px;
+    left: 690px;
+
+    &__image{
+      position: relative;
+      width: 475px;
+      height: 475px;
+    }
+
+    &__description{
+      position: relative;
+      margin: 0;
+      width: 355px;
+      height: 36px;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 4.8px;
+      top: 69px;
+      left: -60px;
+      flex-shrink: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  &__home{
+    position: relative;
+    width: 555px;
+    height: 668.5px;
+    top: -840px;
+    left: 45px;
+    
+    &__image{
+    width: 475px;
+    height: 523px;
+    }
+
+    &__description{
+      position: relative;
+      margin: 0;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 4.8px;
+      top: 69px;
+      left: -60px;
+      flex-shrink: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  &__specialty-serv{
+    position: relative;
+    width: 555px;
+    height: 668.5px;
+    left: 690px;
+    top: -895px;
+
+    &__image{
+      width: 475px;
+      height: 523px;
+    }
+
+    &__description{
+      position: relative;
+      margin: 0;
+      width: 455px;
+      height: 36px;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 4.8px;
+      top: 69px;
+      left: -60px;
+      flex-shrink: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  &__offices{
+    position: relative;
+    width: 555px;
+    height: 621px;
+    top: -1345px;
+    left: 45px;
+
+    &__image{
+      width: 475px;
+      height: 475px;
+    }
+
+    &__description{
+      position: relative;
+      margin: 0;
+      width: 157px;
+      height: 36px;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 4.8px;
+      top: 69px;
+      left: -60px;
+      flex-shrink: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  &__vector{
+    position: absolute;
+    top: 3930px;
+    right: 0;
+  }
+}
